@@ -1,0 +1,36 @@
+.box{
+    width: 90%;
+  
+    margin: 30px auto;
+    /* background-color: #FFC0CB; */
+    border-radius: 5px;
+    box-shadow: 0px -3px 9px 3px #E6E6FA;
+    background-image: linear-gradient(to right , #DDA0DD ,#DDA0DD ,#662d91);
+
+}
+
+.info ul{
+   margin-top: 50px;
+   max-height: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px;
+    
+}
+.info ul li{
+    margin-bottom: 5px;
+    border-bottom: 1px solid #E6E6FA ;
+    color: #452c63;
+}
+.box img{
+    width: 100%;
+    min-height: 500px;
+    max-height: 500px;
+}
+
+.text-center{
+    width: 25%;
+    margin: 100px auto;
+    
+}

@@ -1,0 +1,29 @@
+/* .nav-bar{
+    height: 90px;
+    background-color: #f176dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cotent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.cotent h1{
+    color: #0d0d7c;
+}
+.main-list{
+    display: flex;
+    gap: 40px;
+    margin-top: 8px;
+}
+.main-list li{
+    font-size: 1.1rem;
+}
+.main-list a{
+    color: #0d0d7c;
+    font-weight: 500;
+    cursor: pointer;
+} */

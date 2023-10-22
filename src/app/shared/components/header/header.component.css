@@ -1,0 +1,29 @@
+.nav-bar{
+    height: 90px;
+    background-color: #720e9e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cotent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.cotent h1{
+    color: #ffffff;
+}
+.main-list{
+    display: flex;
+    gap: 40px;
+    margin-top: 8px;
+}
+.main-list li{
+    font-size: 1.1rem;
+}
+.main-list a{
+    color: #E6E6FA;
+    font-weight: 500;
+    cursor: pointer;
+}

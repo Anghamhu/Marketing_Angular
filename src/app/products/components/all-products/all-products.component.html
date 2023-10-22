@@ -1,0 +1,13 @@
+<div class="box mt-10">
+    <div class="my-2 w-25">
+        <app-select [data]="categoreis" [title]="'Categoreis'" (selectedValue)="filterCategoreis($event)"></app-select>
+    </div>
+    <div class="row" *ngIf="!loadig">
+        <div class="col-lg-3" *ngFor="let item of products" >
+            <app-product [data]="item" (item)="addToCart($event)"></app-product>
+        </div>
+    </div>
+    <div class="text-center w-100" *ngIf="loadig">
+        <app-spiner></app-spiner>
+    </div>
+</div>
